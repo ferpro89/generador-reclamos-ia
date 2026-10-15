@@ -1,0 +1,23 @@
+# Variables privadas
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Bases de datos locales
+*.db
+*.sqlite3
+
+# Archivos temporales
+*.log
